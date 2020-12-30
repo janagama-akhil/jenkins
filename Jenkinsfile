@@ -29,7 +29,7 @@ pipeline {
 						type: 'spring-boot-samples/spring-boot-sample-atmosphere/target/spring-boot-sample-atmosphere-1.4.0.RELEASE.jar']], 
 						credentialsId: 'nexusid', 
 						groupId: 'org.springframework.boot', 
-						nexusUrl: '192.168.1.5:8081/nexus', 
+						nexusUrl: '192.168.1.53:8081/nexus', 
 						nexusVersion: 'nexus2', 
 						protocol: 'http', 
 						repository: 'releases', 
