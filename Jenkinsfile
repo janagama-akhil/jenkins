@@ -33,7 +33,8 @@ pipeline {
 						nexusVersion: 'nexus2', 
 						protocol: 'http', 
 						repository: 'releases', 
-						version: "1.4.${BUILD_NUMBER}"				    
+						version: "1.4.${BUILD_NUMBER}"
+				    }
 				}
 			}
 			post {
